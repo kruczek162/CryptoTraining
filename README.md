@@ -29,7 +29,7 @@ What we'll do during this project
 
     - strategy 
 
-##___This guideline will be updated every day during the whole learning block according to contestants' progress___
+## ___This guideline will be updated every day during the whole learning block according to contestants' progress___
 
 ## Game rule
 
@@ -45,5 +45,5 @@ What we'll do during this project
 
 
 
-#Happy coding !!!
+# Happy coding !!!
 
