@@ -47,5 +47,5 @@ What we'll do during this project
 
 # Happy coding !!!
 
-[cesar_page]: <src/main/java/eu/szestkam/cryptotraininig/cesar/CesarGuide.md> (Cesar cipher guideline)
-[rot13_page]: <src/main/java/eu/szestkam/cryptotraininig/rot_13/Rot13Guide.md> (ROT-13 cipher guideline)
+[cesar_page]: <src/main/java/eu/szestkam/cryptotraining/cesar/CesarGuide.md> (Cesar cipher guideline)
+[rot13_page]: <src/main/java/eu/szestkam/cryptotraining/rot_13/Rot13Guide.md> (ROT-13 cipher guideline)
