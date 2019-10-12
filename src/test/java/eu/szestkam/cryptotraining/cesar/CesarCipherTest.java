@@ -50,4 +50,30 @@ public class CesarCipherTest {
         assertEquals(SAMPLE_PHRASE.length(), encoded.length());
     }
 
+    @Test
+    public void testSimpleEncodeLowerCase() {
+        CesarCipher cipher = new CesarCipher("abc");
+        String code = "def";
+        String encoded = cipher.encode();
+        assertEquals(code, encoded);
+        
+        cipher = new CesarCipher("xyz");
+        code = "abc";
+        encoded = cipher.encode();
+        assertEquals(code, encoded);
+    }
+    
+    @Test
+    public void testSimpleEncodeMixedCase() {
+        CesarCipher cipher = new CesarCipher("abC");
+        String code = "deF";
+        String encoded = cipher.encode();
+        assertEquals(code, encoded);
+
+        cipher = new CesarCipher("XYz");
+        code = "ABc";
+        encoded = cipher.encode();
+        assertEquals(code, encoded);
+    }
+
 }
