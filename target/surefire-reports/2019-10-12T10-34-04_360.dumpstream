@@ -1,0 +1,4 @@
+# Created at 2019-10-12T10:34:05.187
+Boot Manifest-JAR contains absolute paths in classpath 'D:\tools\MegaSync\Developer\SDA8\CryptoTraining\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+
