@@ -76,4 +76,29 @@ public class CesarCipherTest {
         assertEquals(code, encoded);
     }
 
+    @Test
+    public void testDecrypWhenNoTextThenEmptyString() {
+        CesarCipher cipher = cipherNoArg;
+        String decoded = cipher.decrypt();
+
+        assertNotNull(decoded);
+        assertEquals("", decoded);
+    }
+    @Test
+    public void testSimpleDecodeMixedCase() {
+        CesarCipher cipher = new CesarCipher("deF");
+        String code = "abC";
+        String encoded = cipher.decrypt();
+        assertEquals(code, encoded);
+
+        cipher = new CesarCipher("ABc");
+        code = "XYz";
+        encoded = cipher.decrypt();
+        assertEquals(code, encoded);
+        
+        cipher = new CesarCipher("ABza");
+        code = "XYwx";
+        encoded = cipher.decrypt();
+        assertEquals(code, encoded);
+    }
 }
