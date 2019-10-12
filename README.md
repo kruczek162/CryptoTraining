@@ -17,9 +17,9 @@ What we'll do during this project
 
 - implementation few fancy algorithms
 
-    - Cesar
+    - Cesar [go there][cesar_page]
 
-    - ROT-13
+    - ROT-13 [go there][rot13_page]
 
     - etc.
 
@@ -47,3 +47,5 @@ What we'll do during this project
 
 # Happy coding !!!
 
+[cesar_page]: <src/main/java/eu/szestkam/cryptotraininig/cesar/CesarGuide.md> (Cesar cipher guideline)
+[rot13_page]: <src/main/java/eu/szestkam/cryptotraininig/rot_13/Rot13Guide.md> (ROT-13 cipher guideline)
