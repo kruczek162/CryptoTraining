@@ -77,14 +77,6 @@ public class CesarCipherTest {
     }
 
     @Test
-    public void testDecrypWhenNoTextThenEmptyString() {
-        CesarCipher cipher = cipherNoArg;
-        String decoded = cipher.decrypt();
-
-        assertNotNull(decoded);
-        assertEquals("", decoded);
-    }
-    @Test
     public void testSimpleDecodeMixedCase() {
         CesarCipher cipher = new CesarCipher("deF");
         String code = "abC";
